@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5c497da59c8fc41993191d176714fd, type: 3}
+  m_Name: WaterMelonCube
+  m_EditorClassIdentifier: 
+  skinID: 57003084fa4e56f4a857921826ba1e7d
+  skinName: WaterMelonCube
+  skinMat: {fileID: 2100000, guid: b8280b7d881c349488dc72aaf4496ff1, type: 2}
+  skinModel: {fileID: 0}
+  trailColor:
+    serializedVersion: 2
+    key0: {r: 0.79607844, g: 0.972549, b: 0.5647059, a: 1}
+    key1: {r: 0.79607844, g: 0.972549, b: 0.5647059, a: 1}
+    key2: {r: 0.9411765, g: 0.92941177, b: 0.12156863, a: 0.83137256}
+    key3: {r: 0.9411765, g: 0.92941177, b: 0.12156863, a: 0.83137256}
+    key4: {r: 0.9411765, g: 0.92941177, b: 0.12156863, a: 0.83137256}
+    key5: {r: 0.9411765, g: 0.92941177, b: 0.12156863, a: 0.83137256}
+    key6: {r: 0.9411765, g: 0.92941177, b: 0.12156863, a: 0.83137256}
+    key7: {r: 0.9411765, g: 0.92941177, b: 0.12156863, a: 0.83137256}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  skinIcon: {fileID: 21300000, guid: b7fd92effdb78054d941e895f54d9a65, type: 3}
+  skinType: 2
+  skinUnlockCost: 0
+  isPreUnlocked: 0

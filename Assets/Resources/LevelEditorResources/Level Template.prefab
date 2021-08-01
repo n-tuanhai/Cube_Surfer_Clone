@@ -1,0 +1,418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6665947582202983913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6665947582202983918}
+  m_Layer: 0
+  m_Name: Level Obstacle
+  m_TagString: Level Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6665947582202983918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665947582202983913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6665947583115282606}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6665947582460098160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6665947582460098161}
+  m_Layer: 0
+  m_Name: Level Ground
+  m_TagString: Level Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6665947582460098161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665947582460098160}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -65.548386, y: -40.352886, z: 1.3744451}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6665947583115282606}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6665947582914265027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6665947582914265024}
+  m_Layer: 0
+  m_Name: Level Interactable
+  m_TagString: Level Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6665947582914265024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665947582914265027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6665947583115282606}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6665947583115282603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6665947583115282606}
+  - component: {fileID: 6665947583115282601}
+  - component: {fileID: 6665947583115282600}
+  m_Layer: 0
+  m_Name: Level Template
+  m_TagString: Level Map
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6665947583115282606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665947583115282603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6665947582460098161}
+  - {fileID: 6665947582202983918}
+  - {fileID: 6665947582914265024}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6665947583115282601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665947583115282603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5ac92bc18f545cc84cd886ece82b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorData:
+    _bezierPath:
+      points:
+      - {x: 2.5000017, y: 3.5, z: -8}
+      - {x: 2.500002, y: 3.5, z: -6.6}
+      - {x: 2.5000021, y: 3.5, z: -5.2}
+      - {x: 2.5000021, y: 3.5, z: -4}
+      - {x: 2.5000021, y: 3.5, z: -2.1047637}
+      - {x: 2.500005, y: 3.5, z: 0.4222176}
+      - {x: 2.5000021, y: 3.5, z: 2.3174539}
+      - {x: 2.500002, y: 3.5, z: 2.5222178}
+      - {x: 2.5000002, y: 3.5, z: 2.795236}
+      - {x: 2.5, y: 3.5, z: 3}
+      - {x: 2.4999962, y: 3.5, z: 5.4}
+      - {x: 2.5, y: 3.5, z: 8.6}
+      - {x: 2.5, y: 3.5, z: 11}
+      - {x: 2.5, y: 3.5, z: 13.1}
+      - {x: 2.5, y: 3.5, z: 15.9}
+      - {x: 2.5, y: 3.5, z: 18}
+      - {x: 2.5, y: 3.5, z: 18.75}
+      - {x: 2.5, y: 3.5, z: 19.75}
+      - {x: 2.5, y: 3.5, z: 20.5}
+      - {x: 2.5, y: 3.5, z: 24.25}
+      - {x: 2.5, y: 3.5, z: 29.25}
+      - {x: 2.5, y: 3.5, z: 33}
+      - {x: 2.5, y: 3.5, z: 37.05}
+      - {x: 2.6228917, y: 3.5, z: 42.451866}
+      - {x: 2.5, y: 3.5, z: 46.5}
+      - {x: 2.4673636, y: 3.5, z: 47.575066}
+      - {x: 2.7006385, y: 3.5, z: 49.087635}
+      - {x: 2.282524, y: 3.5, z: 50.078598}
+      - {x: 2.0980136, y: 3.5, z: 50.515903}
+      - {x: 1.5704579, y: 3.5, z: 50.931084}
+      - {x: 1.2182541, y: 3.5, z: 51.249252}
+      - {x: 0.85975903, y: 3.5, z: 51.573105}
+      - {x: 0.37659806, y: 3.5, z: 52.039726}
+      - {x: -0.07689667, y: 3.5, z: 52.206284}
+      - {x: -1.3253248, y: 3.5, z: 52.664803}
+      - {x: -3.1707919, y: 3.5, z: 52.460743}
+      - {x: -4.5, y: 3.5, z: 52.505676}
+      - {x: -8.247859, y: 3.5, z: 52.632374}
+      - {x: -13.25, y: 3.5, z: 52.505676}
+      - {x: -17, y: 3.5, z: 52.505676}
+      - {x: -21.05, y: 3.5, z: 52.505676}
+      - {x: -26.45385, y: 3.5, z: 52.32908}
+      - {x: -30.499998, y: 3.5, z: 52.505676}
+      - {x: -31.529871, y: 3.5, z: 52.550625}
+      - {x: -32.958996, y: 3.5, z: 52.440166}
+      - {x: -33.92311, y: 3.5, z: 52.805054}
+      - {x: -34.374947, y: 3.5, z: 52.97606}
+      - {x: -34.85976, y: 3.5, z: 53.438232}
+      - {x: -35.218254, y: 3.5, z: 53.762085}
+      - {x: -35.570457, y: 3.5, z: 54.080257}
+      - {x: -36.088535, y: 3.5, z: 54.49957}
+      - {x: -36.282524, y: 3.5, z: 54.932755}
+      - {x: -36.538776, y: 3.5, z: 55.50498}
+      - {x: -36.467335, y: 3.5, z: 56.385216}
+      - {x: -36.5, y: 3.5, z: 57.011345}
+      - {x: -36.625042, y: 3.5, z: 59.408085}
+      - {x: -36.5, y: 3.5, z: 62.611343}
+      - {x: -36.5, y: 3.5, z: 65.011345}
+      - {x: -36.5, y: 3.5, z: 67.11134}
+      - {x: -36.5, y: 3.5, z: 69.91135}
+      - {x: -36.5, y: 3.5, z: 72.011345}
+      - {x: -36.5, y: 3.5, z: 72.011345}
+      - {x: -36.5, y: 3.5, z: 72.011345}
+      - {x: -36.5, y: 3.5, z: 72.011345}
+      - {x: -36.5, y: 3.5, z: 74.41135}
+      - {x: -36.5, y: 3.5, z: 77.61134}
+      - {x: -36.5, y: 3.5, z: 80.011345}
+      - {x: -36.5, y: 3.5, z: 82.11134}
+      - {x: -36.5, y: 3.5, z: 84.91135}
+      - {x: -36.5, y: 3.5, z: 87.011345}
+      - {x: -36.5, y: 3.5, z: 87.011345}
+      - {x: -36.5, y: 3.5, z: 87.011345}
+      - {x: -36.5, y: 3.5, z: 87.011345}
+      - {x: -36.5, y: 3.5, z: 89.41135}
+      - {x: -36.5, y: 3.5, z: 92.61134}
+      - {x: -36.5, y: 3.5, z: 95.011345}
+      - {x: -36.5, y: 3.5, z: 97.11134}
+      - {x: -36.5, y: 3.5, z: 99.91135}
+      - {x: -36.5, y: 3.5, z: 102.011345}
+      - {x: -36.5, y: 3.5, z: 102.011345}
+      - {x: -36.5, y: 3.5, z: 102.011345}
+      - {x: -36.5, y: 3.5, z: 102.011345}
+      - {x: -36.5, y: 3.5, z: 104.41135}
+      - {x: -36.5, y: 3.5, z: 107.61134}
+      - {x: -36.5, y: 3.5, z: 110.011345}
+      - {x: -36.5, y: 3.5, z: 112.11134}
+      - {x: -36.5, y: 3.5, z: 114.91135}
+      - {x: -36.5, y: 3.5, z: 117.011345}
+      - {x: -36.5, y: 3.5, z: 117.011345}
+      - {x: -36.5, y: 3.5, z: 117.011345}
+      - {x: -36.5, y: 3.5, z: 117.011345}
+      - {x: -36.5, y: 3.5, z: 119.41135}
+      - {x: -36.5, y: 3.5, z: 122.61135}
+      - {x: -36.5, y: 3.5, z: 125.01135}
+      - {x: -36.5, y: 3.5, z: 127.11135}
+      - {x: -36.5, y: 3.5, z: 129.91135}
+      - {x: -36.5, y: 3.5, z: 132.01135}
+      - {x: -36.5, y: 3.5, z: 132.01135}
+      - {x: -36.5, y: 3.5, z: 132.01135}
+      - {x: -36.5, y: 3.5, z: 132.01135}
+      - {x: -36.5, y: 3.5, z: 134.41135}
+      - {x: -36.5, y: 3.5, z: 137.61136}
+      - {x: -36.5, y: 3.5, z: 140.01135}
+      - {x: -36.5, y: 3.5, z: 142.11136}
+      - {x: -36.5, y: 3.5, z: 144.91135}
+      - {x: -36.5, y: 3.5, z: 147.01135}
+      - {x: -36.5, y: 3.5, z: 147.01135}
+      - {x: -36.5, y: 3.5, z: 147.01135}
+      - {x: -36.5, y: 3.5, z: 147.01135}
+      - {x: -36.5, y: 3.5, z: 151.36136}
+      - {x: -36.5, y: 3.5, z: 157.16135}
+      - {x: -36.5, y: 3.5, z: 161.51135}
+      - {x: -36.5, y: 3.5, z: 166.16135}
+      - {x: -36.5, y: 3.5, z: 171.58635}
+      - {x: -36.5, y: 3.5, z: 177.01135}
+      isClosed: 0
+      space: 0
+      controlMode: 3
+      autoControlLength: 0.3
+      boundsUpToDate: 0
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+      perAnchorNormalsAngle:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      globalNormalsAngle: 90
+      flipNormals: 0
+    vertexPathUpToDate: 0
+    vertexPathMaxAngleError: 0.3
+    vertexPathMinVertexSpacing: 0.01
+    showTransformTool: 1
+    showPathBounds: 0
+    showPerSegmentBounds: 0
+    displayAnchorPoints: 1
+    displayControlPoints: 1
+    bezierHandleScale: 1
+    globalDisplaySettingsFoldout: 0
+    keepConstantHandleSize: 0
+    showNormalsInVertexMode: 0
+    showBezierPathInVertexMode: 0
+    showDisplayOptions: 0
+    showPathOptions: 1
+    showVertexPathDisplayOptions: 0
+    showVertexPathOptions: 1
+    showNormals: 0
+    showNormalsHelpInfo: 0
+    tabIndex: 0
+  initialized: 1
+--- !u!114 &6665947583115282600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665947583115282603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae22acb574991a449dfb41bbcafae07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closedLoop: 0
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

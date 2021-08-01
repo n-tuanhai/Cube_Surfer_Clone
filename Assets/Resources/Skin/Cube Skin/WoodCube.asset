@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5c497da59c8fc41993191d176714fd, type: 3}
+  m_Name: WoodCube
+  m_EditorClassIdentifier: 
+  skinID: d82a459351f7cc045a83b4bad3c33602
+  skinName: WoodCube
+  skinMat: {fileID: 2100000, guid: 5dbdc024c28a8b747aee2fcb9fd1daa7, type: 2}
+  skinModel: {fileID: 0}
+  trailColor:
+    serializedVersion: 2
+    key0: {r: 0.75686276, g: 0.5411765, b: 0.25490198, a: 0.827451}
+    key1: {r: 0.75686276, g: 0.5411765, b: 0.25490198, a: 0.827451}
+    key2: {r: 0.2509804, g: 0.93333334, b: 0.62352943, a: 0.827451}
+    key3: {r: 0.2509804, g: 0.93333334, b: 0.62352943, a: 0.827451}
+    key4: {r: 0.2509804, g: 0.93333334, b: 0.62352943, a: 0.827451}
+    key5: {r: 0.2509804, g: 0.93333334, b: 0.62352943, a: 0.827451}
+    key6: {r: 0.2509804, g: 0.93333334, b: 0.62352943, a: 0.827451}
+    key7: {r: 0.2509804, g: 0.93333334, b: 0.62352943, a: 0.827451}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  skinIcon: {fileID: 21300000, guid: 33fcbabb7ca653e42a44ff15f2fee0b3, type: 3}
+  skinType: 2
+  skinUnlockCost: 0
+  isPreUnlocked: 0
